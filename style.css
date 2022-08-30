@@ -94,23 +94,28 @@ footer.rodape{
     }
     .titulo {
         font-size: 4vw;
+        width: 35vw;
     }
     .subtitulo {
-        width: 70vw;
-        justify-content: center;
+        width: 60vw;
+        align-items: center;
     }
     .gif {
         width: 70vw;
     }
     .lista {
-        font-size: 3vw;
-        width: 100vw;
+        font-size: 15px;
+        height: 90vh;
+        width: 90vw;
     }
     h2 {
         font-size: 5vw;
     }
     .mordecai {
         margin-left: 20px;
+    }
+    .rigby {
+        margin-left: 15px;
     }
     .foto-2 {
         width: 100vw;
