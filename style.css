@@ -65,7 +65,7 @@ header{
 }
 .foto-2{
     width: 1200px;
-    align-items: center;
+    /* align-items: center; */
 }
 footer.rodape{
     border-top: 1px solid #333;
@@ -104,14 +104,19 @@ footer.rodape{
     }
     .lista {
         font-size: 3vw;
-        width: 95vw;
+        width: 100vw;
+    }
+    h2 {
+        font-size: 5vw;
     }
     .mordecai {
         margin-left: 20px;
     }
     .foto-2 {
-        width: 140vw;
+        width: 100vw;
+        height: 200px;
         align-items: center;
+        object-fit: cover;
     }
     footer.rodape {
         font-size: 3vw;
