@@ -76,7 +76,7 @@ footer.rodape{
     width: 100%;
 }
 
-@media (max-width:500px) {
+@media (max-width:600px) {
     .foto-mordecai-rigby {
         width: 70vw;
     }
@@ -105,7 +105,9 @@ footer.rodape{
     .lista {
         font-size: 3vw;
         width: 95vw;
-        align-items: center;
+    }
+    .mordecai {
+        margin-left: 20px;
     }
     .foto-2 {
         width: 140vw;
