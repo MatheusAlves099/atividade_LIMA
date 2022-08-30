@@ -76,7 +76,7 @@ footer.rodape{
     width: 100%;
 }
 
-@media (max-width:640px) {
+@media (max-width:500px) {
     .foto-mordecai-rigby {
         width: 70vw;
     }
@@ -86,16 +86,17 @@ footer.rodape{
     }
     header {
         height: 17vw;
+        place-content: center;
     }
     .logo-mord_rig {
         width: 35vw;
         align-items: center;
     }
     .titulo {
-        font-size: 5.5vw;
+        font-size: 4vw;
     }
     .subtitulo {
-        width: 86vw;
+        width: 70vw;
         justify-content: center;
     }
     .gif {
