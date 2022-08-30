@@ -75,3 +75,43 @@ footer.rodape{
     position:fixed;
     width: 100%;
 }
+
+@media (max-width:640px) {
+    .foto-mordecai-rigby {
+        width: 70vw;
+    }
+    .logo {
+        width: 60vw;
+        place-self: center;
+    }
+    header {
+        height: 17vw;
+    }
+    .logo-mord_rig {
+        width: 35vw;
+        align-items: center;
+    }
+    .titulo {
+        font-size: 5.5vw;
+    }
+    .subtitulo {
+        width: 86vw;
+        justify-content: center;
+    }
+    .gif {
+        width: 70vw;
+    }
+    .lista {
+        font-size: 3vw;
+        width: 95vw;
+        align-items: center;
+    }
+    .foto-2 {
+        width: 140vw;
+        align-items: center;
+    }
+    footer.rodape {
+        font-size: 3vw;
+        align-items: center;
+    }
+}
