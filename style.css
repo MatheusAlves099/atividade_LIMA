@@ -55,12 +55,16 @@ header{
     justify-content: center;
     align-items: center;
 }
-.gif {
-    height: 60px;
-    align-items: right;
+.logo-mord_rig {
+    height: 80px;
+    align-items: center;
 }
 .foto-mordecai-rigby{
     width: 500px;
+    align-items: center;
+}
+.foto-2{
+    width: 1200px;
     align-items: center;
 }
 footer.rodape{
