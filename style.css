@@ -7,10 +7,6 @@ body {
     margin: 0;
     box-sizing: border-box;
 }
-main{
-    
-}
-
 .intro-container {
     display: flex;
     flex-direction: column;
@@ -74,4 +70,57 @@ footer.rodape{
     height: 20px;
     position:fixed;
     width: 100%;
+}
+
+@media (max-width:600px) {
+    .foto-mordecai-rigby {
+        width: 70vw;
+    }
+    .logo {
+        width: 60vw;
+        place-self: center;
+    }
+    header {
+        height: 17vw;
+        place-content: center;
+    }
+    .logo-mord_rig {
+        width: 35vw;
+        align-items: center;
+    }
+    .titulo {
+        font-size: 4vw;
+        width: 35vw;
+    }
+    .subtitulo {
+        width: 60vw;
+        align-items: center;
+    }
+    .gif {
+        width: 70vw;
+    }
+    .lista {
+        font-size: 15px;
+        height: 90vh;
+        width: 90vw;
+    }
+    h2 {
+        font-size: 5vw;
+    }
+    .mordecai {
+        margin-left: 20px;
+    }
+    .rigby {
+        margin-left: 15px;
+    }
+    .foto-2 {
+        width: 100vw;
+        height: 200px;
+        align-items: center;
+        object-fit: cover;
+    }
+    footer.rodape {
+        font-size: 3vw;
+        align-items: center;
+    }
 }
